@@ -1,0 +1,37 @@
+:root {
+  --color-background: #0b0f14;
+  --color-surface: #11161d;
+  --color-surface-soft: #1a2028;
+  --color-border: #2a313a;
+
+  --color-text-primary: #f5f7fa;
+  --color-text-secondary: #aeb7c4;
+
+  --color-primary: #29c5f6;
+  --color-primary-soft: rgba(41, 197, 246, 0.15);
+
+  --color-button-primary: #b8b6ff;
+  --color-button-primary-text: #16164d;
+
+  --color-chip: #252b34;
+  --color-chip-text: #d7d9e1;
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  --container-width: 680px;
+
+  --transition: 180ms ease;
+}
+.site-header__avatar {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 2px dashed var(--color-border);
+}
+
